@@ -1,0 +1,28 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.63.3",
+    "vant": "^4.9.7",
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@unocss/postcss": "^0.63.3",
+    "@unocss/preset-rem-to-px": "^0.63.3",
+    "@vant/auto-import-resolver": "^1.2.1",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "autoprefixer": "^10.4.20",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5",
+    "unocss": "^0.63.3",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.8"
+  }
+}
